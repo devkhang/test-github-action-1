@@ -34,4 +34,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: production-build-files # Tên file nén sẽ xuất hiện trên GitHub
-          path: build # Hoặc tên thư mục output của bạn (ví dụ: build)
+          path: dist # Hoặc tên thư mục output của bạn (ví dụ: build)
